@@ -1,0 +1,23 @@
+{
+  "name": "iot-data",
+  "description": "A open data platform for Internet of Things.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Evan Tseng",
+    "email": "evan@tseng.io"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanxd/iot-data"
+  },
+  "keywords": [
+    "IoT"
+  ],
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "mongoose": "4.6.1",
+    "shortid": "2.2.6"
+  }
+}
