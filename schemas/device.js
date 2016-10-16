@@ -8,7 +8,7 @@ var Device = new mongoose.Schema({
     type: String,
     'default': shortid.generate
   },
-  coords: { lat: String, lng: String },
+  coords: { lat: Number, lng: Number },
   createDate: { type: Date, default: Date.now },
   description: String,
   email: String,
